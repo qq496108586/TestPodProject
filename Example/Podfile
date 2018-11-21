@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XHMPodLib_Example' do
+  pod 'XHMPodLib', :path => '../'
+
+  target 'XHMPodLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
