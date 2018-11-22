@@ -1,0 +1,16 @@
+PODS:
+  - XHMPodLib (0.1.0)
+
+DEPENDENCIES:
+  - XHMPodLib (from `../`)
+
+EXTERNAL SOURCES:
+  XHMPodLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHMPodLib: 4d29f191cf59e9b4aed77e4b5ca130edc0c6d4cb
+
+PODFILE CHECKSUM: d431df67dfb959c07374cc2d22586716180d97d8
+
+COCOAPODS: 1.5.3

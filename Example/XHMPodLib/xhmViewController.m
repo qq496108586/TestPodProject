@@ -7,6 +7,7 @@
 //
 
 #import "xhmViewController.h"
+#import <XHMPodLib/NSString+XHM.h>
 
 @interface xhmViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    if ([@"ddd" isNotBlank]) {
+        NSLog(@"11");
+    }
 }
 
 - (void)didReceiveMemoryWarning
